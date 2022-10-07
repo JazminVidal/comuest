@@ -1,0 +1,50 @@
+---
+title: "Potencia de Test para la Media"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: cosmo
+    orientation: columns
+    social: menu
+    source_code: embed
+runtime: shiny
+---
+
+```{r global, include=FALSE}
+library(shiny)
+library(ggplot2)
+
+# Función de potencia. 
+# Recibe:
+# - n cantidad de datos
+# - Medias de las hipotesis a testear
+# - Desvío estandar
+# Nivel alfa
+# Tipo de hipótesis
+
+
+```
+
+```{r}
+radioButtons(inputId = "Tipo", label = "Seleccionar hipotesis alternativa:", 
+                   choices = c("\\(H_1:\\mu \\neq \\mu_0 \\)" = "two.sided",
+                               "\\(H_1:\\mu > \\mu_0 \\)" = "greater",
+                               "\\(H_1:\\mu < \\mu_0 \\)" = "less"),
+                   selected = "two.sided")
+
+numericInput(inputId = "N", label = "Tamaño de muestra (\\(n\\)):", value = 25, min = 3, max = 1000, step = 1)
+numericInput(inputId = "mu0", label = "Media propuesta \\( \\mu_0 \\):", value = 30, min = -1000, max = 1000, step = 1)
+numericInput(inputId = "mu1", label = "Media real \\( \\mu_1  \\):", value = 31, min = -1000, max = 1000, step = 1)
+numericInput(inputId = "Sigma", label = "Desvio estandar poblacional \\((\\sigma)\\):", value = 1, min = 0.001, max = 1000, step = 1)
+sliderInput(inputId = "Alpha", label = "Nivel de significancia \\((\\alpha)\\):", min = 0.001, max = 0.25, value = 0.05, step = 0.001)
+```
+
+```{r}
+renderPlot({
+           powerg(n = input$N,
+           sd = input$Sigma,
+           mu0 = input$mu0,
+           mu1 = input$mu1,
+           alpha = input$Alpha,
+           alternative = input$Type)
+})
+```

@@ -1,0 +1,14 @@
+name: shiny_power
+title: shiny_power
+username:
+account: inferenciautdt
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7235353
+bundleId: 6380156
+url: https://inferenciautdt.shinyapps.io/shiny_power/
+when: 1665160149.06865
+lastSyncTime: 1665160149.06866
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: power_app.html|power_app.Rmd

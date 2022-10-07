@@ -1,0 +1,28 @@
+{
+    "id": "23433DD1",
+    "path": "~/Documents/Materias/Maestria/Comuest/shiny_test/power_app.R",
+    "project_path": "power_app.R",
+    "type": "r_source",
+    "hash": "2497391266",
+    "contents": "",
+    "dirty": false,
+    "created": 1665087841097.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "121,56",
+        "scrollLine": "111",
+        "notebook_format": "html_document"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1665160586,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1665160586874,
+    "read_only": false,
+    "read_only_alternatives": []
+}

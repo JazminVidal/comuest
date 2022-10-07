@@ -1,0 +1,13 @@
+name: Potencia
+title: Potencia
+username:
+account: inferenciautdt
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7234355
+bundleId: 6377169
+url: https://inferenciautdt.shinyapps.io/Potencia/
+when: 1665087644.58168
+lastSyncTime: 1665087644.58169
+asMultiple: FALSE
+asStatic: FALSE
