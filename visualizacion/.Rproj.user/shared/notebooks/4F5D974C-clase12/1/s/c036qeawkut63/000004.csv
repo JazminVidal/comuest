@@ -1,0 +1,2 @@
+"0","datos <- read.table('datos_DNI_33.txt')"
+"0","datos"

@@ -1,0 +1,32 @@
+{
+    "id": "7B532A66",
+    "path": "~/Documents/Exps/datos_exportaciones/analisis.Rmd",
+    "project_path": "analisis.Rmd",
+    "type": "r_markdown",
+    "hash": "1368758477",
+    "contents": "",
+    "dirty": false,
+    "created": 1662815642381.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "rmdVisualMode": "true",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "10007:7831",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "0",
+        "last_setup_crc32": "E1A8D5C7bb338d19",
+        "cursorPosition": "251,39",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1662906199,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1662906199620,
+    "read_only": false,
+    "read_only_alternatives": []
+}

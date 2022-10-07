@@ -1,0 +1,5 @@
+"0","# Se filtra los datos"
+"0","df_frutas_filt = df_frutas %>%  filter(totales_tn>3000)"
+"0","# Se redondea el valor en toneladas."
+"0","df_frutas_filt$totales_usd = round(df_frutas_filt$totales_usd,0)"
+"0","df_frutas_filt"

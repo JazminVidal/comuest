@@ -1,0 +1,286 @@
+﻿paisorigen_id,pais_origen,producto,paisdestino_id,pais_destino,año,unimed_cod,unidad_medida,totales_tn,moneda_cod,moneda,totales_usd
+32,Argentina,Arandano,212,Estados Unidos,2013,tn,Toneladas,7352,USD,Dolares,49637.14
+32,Argentina,Arandano,426,Reino Unido,2013,tn,Toneladas,2080,USD,Dolares,15151.5
+32,Argentina,Arandano,423,Países Bajos,2013,tn,Toneladas,1091,USD,Dolares,8001.87
+32,Argentina,Arandano,438,Alemania,2013,tn,Toneladas,614,USD,Dolares,5041.24
+32,Argentina,Arandano,204,Canadá,2013,tn,Toneladas,577,USD,Dolares,4875.8
+32,Argentina,Arandano,,Otros,2013,tn,Toneladas,535,USD,Dolares,4282.63
+32,Argentina,Arandano,212,Estados Unidos,2014,tn,Toneladas,9839,USD,Dolares,67160.88
+32,Argentina,Arandano,426,Reino Unido,2014,tn,Toneladas,2526,USD,Dolares,19367.98
+32,Argentina,Arandano,423,Países Bajos,2014,tn,Toneladas,1148,USD,Dolares,8958.59
+32,Argentina,Arandano,438,Alemania,2014,tn,Toneladas,1126,USD,Dolares,7955.16
+32,Argentina,Arandano,204,Canadá,2014,tn,Toneladas,747,USD,Dolares,5842.05
+32,Argentina,Arandano,,Otros,2014,tn,Toneladas,920,USD,Dolares,7300.25
+32,Argentina,Arandano,212,Estados Unidos,2015,tn,Toneladas,9616,USD,Dolares,69205.29
+32,Argentina,Arandano,426,Reino Unido,2015,tn,Toneladas,2170,USD,Dolares,15740.4
+32,Argentina,Arandano,423,Países Bajos,2015,tn,Toneladas,624,USD,Dolares,4700.1
+32,Argentina,Arandano,438,Alemania,2015,tn,Toneladas,1050,USD,Dolares,7430.87
+32,Argentina,Arandano,204,Canadá,2015,tn,Toneladas,552,USD,Dolares,4361.02
+32,Argentina,Arandano,,Otros,2015,tn,Toneladas,767,USD,Dolares,5501.53
+32,Argentina,Arandano,212,Estados Unidos,2016,tn,Toneladas,10997,USD,Dolares,77185.77
+32,Argentina,Arandano,426,Reino Unido,2016,tn,Toneladas,2493,USD,Dolares,18563.14
+32,Argentina,Arandano,423,Países Bajos,2016,tn,Toneladas,766,USD,Dolares,5215.1
+32,Argentina,Arandano,438,Alemania,2016,tn,Toneladas,1380,USD,Dolares,9833.08
+32,Argentina,Arandano,204,Canadá,2016,tn,Toneladas,387,USD,Dolares,3005.95
+32,Argentina,Arandano,,Otros,2016,tn,Toneladas,918,USD,Dolares,6675.2
+32,Argentina,Arandano,212,Estados Unidos,2017,tn,Toneladas,9852,USD,Dolares,60918.1
+32,Argentina,Arandano,426,Reino Unido,2017,tn,Toneladas,1925,USD,Dolares,13032.22
+32,Argentina,Arandano,423,Países Bajos,2017,tn,Toneladas,1124,USD,Dolares,7580.59
+32,Argentina,Arandano,438,Alemania,2017,tn,Toneladas,786,USD,Dolares,5419.73
+32,Argentina,Arandano,204,Canadá,2017,tn,Toneladas,531,USD,Dolares,3455.91
+32,Argentina,Arandano,,Otros,2017,tn,Toneladas,1408,USD,Dolares,9499.69
+32,Argentina,Ciruela,203,Brasil,2013,tn,Toneladas,3416,USD,Dolares,3918.33
+32,Argentina,Ciruela,221,Paraguay,2013,tn,Toneladas,271,USD,Dolares,73.16
+32,Argentina,Ciruela,423,Países Bajos,2013,tn,Toneladas,613,USD,Dolares,636.53
+32,Argentina,Ciruela,212,Estados Unidos,2013,tn,Toneladas,53,USD,Dolares,77.77
+32,Argentina,Ciruela,225,Uruguay,2013,tn,Toneladas,109,USD,Dolares,103.39
+32,Argentina,Ciruela,,Otros,2013,tn,Toneladas,903,USD,Dolares,801.63
+32,Argentina,Ciruela,203,Brasil,2014,tn,Toneladas,1362,USD,Dolares,1941.6
+32,Argentina,Ciruela,221,Paraguay,2014,tn,Toneladas,135,USD,Dolares,41.55
+32,Argentina,Ciruela,423,Países Bajos,2014,tn,Toneladas,145,USD,Dolares,161.23
+32,Argentina,Ciruela,212,Estados Unidos,2014,tn,Toneladas,45,USD,Dolares,178.42
+32,Argentina,Ciruela,225,Uruguay,2014,tn,Toneladas,19,USD,Dolares,34.9
+32,Argentina,Ciruela,,Otros,2014,tn,Toneladas,98,USD,Dolares,109.37
+32,Argentina,Ciruela,203,Brasil,2015,tn,Toneladas,1471,USD,Dolares,1595.86
+32,Argentina,Ciruela,221,Paraguay,2015,tn,Toneladas,420,USD,Dolares,141.46
+32,Argentina,Ciruela,423,Países Bajos,2015,tn,Toneladas,559,USD,Dolares,561.81
+32,Argentina,Ciruela,212,Estados Unidos,2015,tn,Toneladas,19,USD,Dolares,42.58
+32,Argentina,Ciruela,225,Uruguay,2015,tn,Toneladas,81,USD,Dolares,76.38
+32,Argentina,Ciruela,,Otros,2015,tn,Toneladas,574,USD,Dolares,450.26
+32,Argentina,Ciruela,203,Brasil,2016,tn,Toneladas,436,USD,Dolares,595.17
+32,Argentina,Ciruela,221,Paraguay,2016,tn,Toneladas,284,USD,Dolares,81.78
+32,Argentina,Ciruela,423,Países Bajos,2016,tn,Toneladas,123,USD,Dolares,135.66
+32,Argentina,Ciruela,212,Estados Unidos,2016,tn,Toneladas,0,USD,Dolares,0
+32,Argentina,Ciruela,225,Uruguay,2016,tn,Toneladas,10,USD,Dolares,12.1
+32,Argentina,Ciruela,,Otros,2016,tn,Toneladas,113,USD,Dolares,119.86
+32,Argentina,Ciruela,203,Brasil,2017,tn,Toneladas,469,USD,Dolares,601.75
+32,Argentina,Ciruela,221,Paraguay,2017,tn,Toneladas,208,USD,Dolares,77.23
+32,Argentina,Ciruela,423,Países Bajos,2017,tn,Toneladas,139,USD,Dolares,158.9
+32,Argentina,Ciruela,212,Estados Unidos,2017,tn,Toneladas,25,USD,Dolares,100
+32,Argentina,Ciruela,225,Uruguay,2017,tn,Toneladas,22,USD,Dolares,37.15
+32,Argentina,Ciruela,,Otros,2017,tn,Toneladas,20,USD,Dolares,21.65
+32,Argentina,Durazno,203,Brasil,2013,tn,Toneladas,3187,USD,Dolares,3846.04
+32,Argentina,Durazno,221,Paraguay,2013,tn,Toneladas,183,USD,Dolares,53.88
+32,Argentina,Durazno,202,Bolivia,2013,tn,Toneladas,206,USD,Dolares,139.94
+32,Argentina,Durazno,,Otros,2013,tn,Toneladas,474,USD,Dolares,594.69
+32,Argentina,Durazno,203,Brasil,2014,tn,Toneladas,1647,USD,Dolares,2500.85
+32,Argentina,Durazno,221,Paraguay,2014,tn,Toneladas,159,USD,Dolares,49.22
+32,Argentina,Durazno,202,Bolivia,2014,tn,Toneladas,134,USD,Dolares,99.54
+32,Argentina,Durazno,,Otros,2014,tn,Toneladas,38,USD,Dolares,60.66
+32,Argentina,Durazno,203,Brasil,2015,tn,Toneladas,1282,USD,Dolares,1365.84
+32,Argentina,Durazno,221,Paraguay,2015,tn,Toneladas,377,USD,Dolares,133.64
+32,Argentina,Durazno,202,Bolivia,2015,tn,Toneladas,335,USD,Dolares,205.25
+32,Argentina,Durazno,,Otros,2015,tn,Toneladas,17,USD,Dolares,29.5
+32,Argentina,Durazno,203,Brasil,2016,tn,Toneladas,634,USD,Dolares,797.58
+32,Argentina,Durazno,221,Paraguay,2016,tn,Toneladas,287,USD,Dolares,103.58
+32,Argentina,Durazno,202,Bolivia,2016,tn,Toneladas,151,USD,Dolares,85.66
+32,Argentina,Durazno,,Otros,2016,tn,Toneladas,79,USD,Dolares,60.2
+32,Argentina,Durazno,203,Brasil,2017,tn,Toneladas,292,USD,Dolares,424.58
+32,Argentina,Durazno,221,Paraguay,2017,tn,Toneladas,263,USD,Dolares,109.43
+32,Argentina,Durazno,202,Bolivia,2017,tn,Toneladas,30,USD,Dolares,27.61
+32,Argentina,Durazno,,Otros,2017,tn,Toneladas,25,USD,Dolares,38.37
+32,Argentina,Limon,444,Rusia,2013,tn,Toneladas,42539,USD,Dolares,34306.22
+32,Argentina,Limon,410,España,2013,tn,Toneladas,44893,USD,Dolares,37377.56
+32,Argentina,Limon,417,Italia,2013,tn,Toneladas,38821,USD,Dolares,32739.76
+32,Argentina,Limon,423,Países Bajos,2013,tn,Toneladas,60452,USD,Dolares,48930.94
+32,Argentina,Limon,413,Grecia,2013,tn,Toneladas,16786,USD,Dolares,14125.76
+32,Argentina,Limon,,Otros,2013,tn,Toneladas,79305,USD,Dolares,66710.01
+32,Argentina,Limon,444,Rusia,2014,tn,Toneladas,22446,USD,Dolares,21903.59
+32,Argentina,Limon,410,España,2014,tn,Toneladas,25141,USD,Dolares,31970.18
+32,Argentina,Limon,417,Italia,2014,tn,Toneladas,19074,USD,Dolares,22772.78
+32,Argentina,Limon,423,Países Bajos,2014,tn,Toneladas,26278,USD,Dolares,27566.86
+32,Argentina,Limon,413,Grecia,2014,tn,Toneladas,6839,USD,Dolares,6832.96
+32,Argentina,Limon,,Otros,2014,tn,Toneladas,50783,USD,Dolares,59181.49
+32,Argentina,Limon,444,Rusia,2015,tn,Toneladas,29304,USD,Dolares,25006.17
+32,Argentina,Limon,410,España,2015,tn,Toneladas,28292,USD,Dolares,33445.51
+32,Argentina,Limon,417,Italia,2015,tn,Toneladas,26392,USD,Dolares,28892.75
+32,Argentina,Limon,423,Países Bajos,2015,tn,Toneladas,32317,USD,Dolares,31792.54
+32,Argentina,Limon,413,Grecia,2015,tn,Toneladas,7502,USD,Dolares,7272.96
+32,Argentina,Limon,,Otros,2015,tn,Toneladas,60947,USD,Dolares,64356.76
+32,Argentina,Limon,444,Rusia,2016,tn,Toneladas,37974,USD,Dolares,38683.94
+32,Argentina,Limon,410,España,2016,tn,Toneladas,59608,USD,Dolares,77234.28
+32,Argentina,Limon,417,Italia,2016,tn,Toneladas,32656,USD,Dolares,38730.18
+32,Argentina,Limon,423,Países Bajos,2016,tn,Toneladas,51299,USD,Dolares,57872.16
+32,Argentina,Limon,413,Grecia,2016,tn,Toneladas,8703,USD,Dolares,9731.26
+32,Argentina,Limon,,Otros,2016,tn,Toneladas,89204,USD,Dolares,104408.38
+32,Argentina,Limon,444,Rusia,2017,tn,Toneladas,43092,USD,Dolares,41820.97
+32,Argentina,Limon,410,España,2017,tn,Toneladas,39525,USD,Dolares,44473.41
+32,Argentina,Limon,417,Italia,2017,tn,Toneladas,31991,USD,Dolares,34171.71
+32,Argentina,Limon,423,Países Bajos,2017,tn,Toneladas,30427,USD,Dolares,31086.49
+32,Argentina,Limon,413,Grecia,2017,tn,Toneladas,11988,USD,Dolares,12336.62
+32,Argentina,Limon,,Otros,2017,tn,Toneladas,84119,USD,Dolares,85142.23
+32,Argentina,Mandarina,444,Rusia,2013,tn,Toneladas,44034,USD,Dolares,37108.81
+32,Argentina,Mandarina,411,Filipinas,2013,tn,Toneladas,7428,USD,Dolares,6219.34
+32,Argentina,Mandarina,204,Canadá,2013,tn,Toneladas,3021,USD,Dolares,2710.75
+32,Argentina,Mandarina,316,Indonesia,2013,tn,Toneladas,4903,USD,Dolares,4337.88
+32,Argentina,Mandarina,331,Emiratos Arabes Unidos,2013,tn,Toneladas,952,USD,Dolares,799.43
+32,Argentina,Mandarina,,Otros,2013,tn,Toneladas,28583,USD,Dolares,23423.8
+32,Argentina,Mandarina,444,Rusia,2014,tn,Toneladas,46801,USD,Dolares,38199.4
+32,Argentina,Mandarina,411,Filipinas,2014,tn,Toneladas,6373,USD,Dolares,5631.64
+32,Argentina,Mandarina,204,Canadá,2014,tn,Toneladas,4143,USD,Dolares,3792.1
+32,Argentina,Mandarina,316,Indonesia,2014,tn,Toneladas,6360,USD,Dolares,5632.81
+32,Argentina,Mandarina,331,Emiratos Arabes Unidos,2014,tn,Toneladas,1702,USD,Dolares,1393.55
+32,Argentina,Mandarina,,Otros,2014,tn,Toneladas,23301,USD,Dolares,18874.16
+32,Argentina,Mandarina,444,Rusia,2015,tn,Toneladas,28786,USD,Dolares,22931.43
+32,Argentina,Mandarina,411,Filipinas,2015,tn,Toneladas,6468,USD,Dolares,5211.22
+32,Argentina,Mandarina,204,Canadá,2015,tn,Toneladas,4269,USD,Dolares,3653.39
+32,Argentina,Mandarina,316,Indonesia,2015,tn,Toneladas,1946,USD,Dolares,1548.35
+32,Argentina,Mandarina,331,Emiratos Arabes Unidos,2015,tn,Toneladas,1574,USD,Dolares,1324.24
+32,Argentina,Mandarina,,Otros,2015,tn,Toneladas,10182,USD,Dolares,7928.91
+32,Argentina,Mandarina,444,Rusia,2016,tn,Toneladas,24242,USD,Dolares,20698.72
+32,Argentina,Mandarina,411,Filipinas,2016,tn,Toneladas,7934,USD,Dolares,6876.52
+32,Argentina,Mandarina,204,Canadá,2016,tn,Toneladas,4241,USD,Dolares,3915.98
+32,Argentina,Mandarina,316,Indonesia,2016,tn,Toneladas,3376,USD,Dolares,3099.9
+32,Argentina,Mandarina,331,Emiratos Arabes Unidos,2016,tn,Toneladas,1560,USD,Dolares,1311.38
+32,Argentina,Mandarina,,Otros,2016,tn,Toneladas,8406,USD,Dolares,7431.92
+32,Argentina,Mandarina,444,Rusia,2017,tn,Toneladas,20136,USD,Dolares,19008.26
+32,Argentina,Mandarina,411,Filipinas,2017,tn,Toneladas,6739,USD,Dolares,6677.35
+32,Argentina,Mandarina,204,Canadá,2017,tn,Toneladas,5246,USD,Dolares,5504.32
+32,Argentina,Mandarina,316,Indonesia,2017,tn,Toneladas,1426,USD,Dolares,1377.52
+32,Argentina,Mandarina,331,Emiratos Arabes Unidos,2017,tn,Toneladas,1325,USD,Dolares,1369.98
+32,Argentina,Mandarina,,Otros,2017,tn,Toneladas,5990,USD,Dolares,5338.05
+32,Argentina,Manzana,221,Paraguay,2013,tn,Toneladas,5685,USD,Dolares,1473.41
+32,Argentina,Manzana,203,Brasil,2013,tn,Toneladas,46162,USD,Dolares,49049.78
+32,Argentina,Manzana,444,Rusia,2013,tn,Toneladas,22261,USD,Dolares,19407.3
+32,Argentina,Manzana,212,Estados Unidos,2013,tn,Toneladas,7818,USD,Dolares,7836.46
+32,Argentina,Manzana,202,Bolivia,2013,tn,Toneladas,8303,USD,Dolares,4631.93
+32,Argentina,Manzana,,Otros,2013,tn,Toneladas,73369,USD,Dolares,74995.17
+32,Argentina,Manzana,221,Paraguay,2014,tn,Toneladas,5938,USD,Dolares,1689.98
+32,Argentina,Manzana,203,Brasil,2014,tn,Toneladas,49601,USD,Dolares,52011.17
+32,Argentina,Manzana,444,Rusia,2014,tn,Toneladas,12989,USD,Dolares,10977.06
+32,Argentina,Manzana,212,Estados Unidos,2014,tn,Toneladas,9216,USD,Dolares,9510.52
+32,Argentina,Manzana,202,Bolivia,2014,tn,Toneladas,8281,USD,Dolares,4237.87
+32,Argentina,Manzana,,Otros,2014,tn,Toneladas,58314,USD,Dolares,58838.1
+32,Argentina,Manzana,221,Paraguay,2015,tn,Toneladas,11960,USD,Dolares,3639.47
+32,Argentina,Manzana,203,Brasil,2015,tn,Toneladas,24058,USD,Dolares,22498.63
+32,Argentina,Manzana,444,Rusia,2015,tn,Toneladas,16172,USD,Dolares,12821.07
+32,Argentina,Manzana,212,Estados Unidos,2015,tn,Toneladas,13856,USD,Dolares,13598.58
+32,Argentina,Manzana,202,Bolivia,2015,tn,Toneladas,9594,USD,Dolares,4734.92
+32,Argentina,Manzana,,Otros,2015,tn,Toneladas,30669,USD,Dolares,28304.08
+32,Argentina,Manzana,221,Paraguay,2016,tn,Toneladas,13862,USD,Dolares,4306.62
+32,Argentina,Manzana,203,Brasil,2016,tn,Toneladas,21928,USD,Dolares,20769.06
+32,Argentina,Manzana,444,Rusia,2016,tn,Toneladas,9731,USD,Dolares,7380.69
+32,Argentina,Manzana,212,Estados Unidos,2016,tn,Toneladas,10739,USD,Dolares,11924.85
+32,Argentina,Manzana,202,Bolivia,2016,tn,Toneladas,8718,USD,Dolares,4332.06
+32,Argentina,Manzana,,Otros,2016,tn,Toneladas,25965,USD,Dolares,25039.04
+32,Argentina,Manzana,221,Paraguay,2017,tn,Toneladas,12603,USD,Dolares,5269.15
+32,Argentina,Manzana,203,Brasil,2017,tn,Toneladas,12120,USD,Dolares,12253.01
+32,Argentina,Manzana,444,Rusia,2017,tn,Toneladas,10985,USD,Dolares,8729.69
+32,Argentina,Manzana,212,Estados Unidos,2017,tn,Toneladas,10072,USD,Dolares,15070.09
+32,Argentina,Manzana,202,Bolivia,2017,tn,Toneladas,7471,USD,Dolares,3972.93
+32,Argentina,Manzana,,Otros,2017,tn,Toneladas,24406,USD,Dolares,29811.59
+32,Argentina,Naranja,410,España,2013,tn,Toneladas,28533,USD,Dolares,12743.06
+32,Argentina,Naranja,221,Paraguay,2013,tn,Toneladas,26265,USD,Dolares,1352.42
+32,Argentina,Naranja,423,Países Bajos,2013,tn,Toneladas,16554,USD,Dolares,8565.84
+32,Argentina,Naranja,417,Italia,2013,tn,Toneladas,3212,USD,Dolares,1633.82
+32,Argentina,Naranja,444,Rusia,2013,tn,Toneladas,249,USD,Dolares,125.77
+32,Argentina,Naranja,,Otros,2013,tn,Toneladas,3499,USD,Dolares,1829.31
+32,Argentina,Naranja,410,España,2014,tn,Toneladas,24025,USD,Dolares,10701.16
+32,Argentina,Naranja,221,Paraguay,2014,tn,Toneladas,27524,USD,Dolares,1824.61
+32,Argentina,Naranja,423,Países Bajos,2014,tn,Toneladas,12444,USD,Dolares,6588.14
+32,Argentina,Naranja,417,Italia,2014,tn,Toneladas,2968,USD,Dolares,1634.98
+32,Argentina,Naranja,444,Rusia,2014,tn,Toneladas,605,USD,Dolares,298.43
+32,Argentina,Naranja,,Otros,2014,tn,Toneladas,8302,USD,Dolares,4121.66
+32,Argentina,Naranja,410,España,2015,tn,Toneladas,27847,USD,Dolares,11921.91
+32,Argentina,Naranja,221,Paraguay,2015,tn,Toneladas,29981,USD,Dolares,3591.79
+32,Argentina,Naranja,423,Países Bajos,2015,tn,Toneladas,5410,USD,Dolares,2865.51
+32,Argentina,Naranja,417,Italia,2015,tn,Toneladas,2335,USD,Dolares,1049.59
+32,Argentina,Naranja,444,Rusia,2015,tn,Toneladas,521,USD,Dolares,251.88
+32,Argentina,Naranja,,Otros,2015,tn,Toneladas,5517,USD,Dolares,2761.34
+32,Argentina,Naranja,410,España,2016,tn,Toneladas,32818,USD,Dolares,15035.05
+32,Argentina,Naranja,221,Paraguay,2016,tn,Toneladas,5371,USD,Dolares,540.82
+32,Argentina,Naranja,423,Países Bajos,2016,tn,Toneladas,8482,USD,Dolares,4866.03
+32,Argentina,Naranja,417,Italia,2016,tn,Toneladas,3842,USD,Dolares,2276.87
+32,Argentina,Naranja,444,Rusia,2016,tn,Toneladas,5250,USD,Dolares,3076.12
+32,Argentina,Naranja,,Otros,2016,tn,Toneladas,9231,USD,Dolares,5202.83
+32,Argentina,Naranja,410,España,2017,tn,Toneladas,29412,USD,Dolares,14291.63
+32,Argentina,Naranja,221,Paraguay,2017,tn,Toneladas,28382,USD,Dolares,2599.57
+32,Argentina,Naranja,423,Países Bajos,2017,tn,Toneladas,6440,USD,Dolares,3939.59
+32,Argentina,Naranja,417,Italia,2017,tn,Toneladas,3408,USD,Dolares,2114.52
+32,Argentina,Naranja,444,Rusia,2017,tn,Toneladas,3182,USD,Dolares,1899.57
+32,Argentina,Naranja,,Otros,2017,tn,Toneladas,9180,USD,Dolares,5662.05
+32,Argentina,Pera,203,Brasil,2013,tn,Toneladas,148206,USD,Dolares,148936.79
+32,Argentina,Pera,444,Rusia,2013,tn,Toneladas,103348,USD,Dolares,91986.75
+32,Argentina,Pera,212,Estados Unidos,2013,tn,Toneladas,40847,USD,Dolares,39390.98
+32,Argentina,Pera,417,Italia,2013,tn,Toneladas,39102,USD,Dolares,35027.69
+32,Argentina,Pera,423,Países Bajos,2013,tn,Toneladas,45809,USD,Dolares,41729.2
+32,Argentina,Pera,,Otros,2013,tn,Toneladas,64969,USD,Dolares,64993.89
+32,Argentina,Pera,203,Brasil,2014,tn,Toneladas,137415,USD,Dolares,134731.71
+32,Argentina,Pera,444,Rusia,2014,tn,Toneladas,93744,USD,Dolares,78073.63
+32,Argentina,Pera,212,Estados Unidos,2014,tn,Toneladas,43668,USD,Dolares,41309.77
+32,Argentina,Pera,417,Italia,2014,tn,Toneladas,37091,USD,Dolares,33041.34
+32,Argentina,Pera,423,Países Bajos,2014,tn,Toneladas,18510,USD,Dolares,16549.69
+32,Argentina,Pera,,Otros,2014,tn,Toneladas,78937,USD,Dolares,75592.62
+32,Argentina,Pera,203,Brasil,2015,tn,Toneladas,119239,USD,Dolares,106011.65
+32,Argentina,Pera,444,Rusia,2015,tn,Toneladas,68565,USD,Dolares,50314.17
+32,Argentina,Pera,212,Estados Unidos,2015,tn,Toneladas,47093,USD,Dolares,44276.57
+32,Argentina,Pera,417,Italia,2015,tn,Toneladas,25441,USD,Dolares,20057.67
+32,Argentina,Pera,423,Países Bajos,2015,tn,Toneladas,10989,USD,Dolares,9165.27
+32,Argentina,Pera,,Otros,2015,tn,Toneladas,61582,USD,Dolares,53084.96
+32,Argentina,Pera,203,Brasil,2016,tn,Toneladas,99489,USD,Dolares,88862.09
+32,Argentina,Pera,444,Rusia,2016,tn,Toneladas,64831,USD,Dolares,48270.68
+32,Argentina,Pera,212,Estados Unidos,2016,tn,Toneladas,42366,USD,Dolares,41722.03
+32,Argentina,Pera,417,Italia,2016,tn,Toneladas,28538,USD,Dolares,24168.6
+32,Argentina,Pera,423,Países Bajos,2016,tn,Toneladas,11139,USD,Dolares,10021.4
+32,Argentina,Pera,,Otros,2016,tn,Toneladas,63703,USD,Dolares,57058.72
+32,Argentina,Pera,203,Brasil,2017,tn,Toneladas,91638,USD,Dolares,82857.51
+32,Argentina,Pera,444,Rusia,2017,tn,Toneladas,69942,USD,Dolares,56536.21
+32,Argentina,Pera,212,Estados Unidos,2017,tn,Toneladas,35090,USD,Dolares,38824.93
+32,Argentina,Pera,417,Italia,2017,tn,Toneladas,21179,USD,Dolares,18801.85
+32,Argentina,Pera,423,Países Bajos,2017,tn,Toneladas,7709,USD,Dolares,7709.38
+32,Argentina,Pera,,Otros,2017,tn,Toneladas,54066,USD,Dolares,52241.76
+32,Argentina,Pomelo,221,Paraguay,2013,tn,Toneladas,271,USD,Dolares,18.46
+32,Argentina,Pomelo,410,España,2013,tn,Toneladas,0,USD,Dolares,0
+32,Argentina,Pomelo,204,Canadá,2013,tn,Toneladas,0,USD,Dolares,0
+32,Argentina,Pomelo,444,Rusia,2013,tn,Toneladas,53,USD,Dolares,23.17
+32,Argentina,Pomelo,,Otros,2013,tn,Toneladas,1259,USD,Dolares,621.36
+32,Argentina,Pomelo,221,Paraguay,2014,tn,Toneladas,999,USD,Dolares,71.96
+32,Argentina,Pomelo,410,España,2014,tn,Toneladas,0,USD,Dolares,0
+32,Argentina,Pomelo,204,Canadá,2014,tn,Toneladas,0,USD,Dolares,0
+32,Argentina,Pomelo,444,Rusia,2014,tn,Toneladas,0,USD,Dolares,0
+32,Argentina,Pomelo,,Otros,2014,tn,Toneladas,16,USD,Dolares,9.79
+32,Argentina,Pomelo,221,Paraguay,2015,tn,Toneladas,471,USD,Dolares,53.12
+32,Argentina,Pomelo,410,España,2015,tn,Toneladas,0,USD,Dolares,0
+32,Argentina,Pomelo,204,Canadá,2015,tn,Toneladas,0,USD,Dolares,0
+32,Argentina,Pomelo,444,Rusia,2015,tn,Toneladas,0,USD,Dolares,0
+32,Argentina,Pomelo,,Otros,2015,tn,Toneladas,8,USD,Dolares,4.44
+32,Argentina,Pomelo,221,Paraguay,2016,tn,Toneladas,60,USD,Dolares,13.2
+32,Argentina,Pomelo,410,España,2016,tn,Toneladas,0,USD,Dolares,0
+32,Argentina,Pomelo,204,Canadá,2016,tn,Toneladas,90,USD,Dolares,57.93
+32,Argentina,Pomelo,444,Rusia,2016,tn,Toneladas,262,USD,Dolares,172.38
+32,Argentina,Pomelo,,Otros,2016,tn,Toneladas,163,USD,Dolares,97.16
+32,Argentina,Pomelo,221,Paraguay,2017,tn,Toneladas,182,USD,Dolares,27.17
+32,Argentina,Pomelo,410,España,2017,tn,Toneladas,135,USD,Dolares,100.55
+32,Argentina,Pomelo,204,Canadá,2017,tn,Toneladas,116,USD,Dolares,75.1
+32,Argentina,Pomelo,444,Rusia,2017,tn,Toneladas,111,USD,Dolares,73.55
+32,Argentina,Pomelo,,Otros,2017,tn,Toneladas,156,USD,Dolares,104.41
+32,Argentina,Uva,203,Brasil,2013,tn,Toneladas,5732,USD,Dolares,10428.88
+32,Argentina,Uva,444,Rusia,2013,tn,Toneladas,8423,USD,Dolares,12765.29
+32,Argentina,Uva,438,Alemania,2013,tn,Toneladas,617,USD,Dolares,890.48
+32,Argentina,Uva,202,Bolivia,2013,tn,Toneladas,719,USD,Dolares,366.67
+32,Argentina,Uva,221,Paraguay,2013,tn,Toneladas,121,USD,Dolares,37.07
+32,Argentina,Uva,,Otros,2013,tn,Toneladas,8076,USD,Dolares,12902.46
+32,Argentina,Uva,203,Brasil,2014,tn,Toneladas,2775,USD,Dolares,4876.2
+32,Argentina,Uva,444,Rusia,2014,tn,Toneladas,4000,USD,Dolares,6076.73
+32,Argentina,Uva,438,Alemania,2014,tn,Toneladas,4073,USD,Dolares,6986.18
+32,Argentina,Uva,202,Bolivia,2014,tn,Toneladas,444,USD,Dolares,236.04
+32,Argentina,Uva,221,Paraguay,2014,tn,Toneladas,55,USD,Dolares,68.96
+32,Argentina,Uva,,Otros,2014,tn,Toneladas,6453,USD,Dolares,11208.63
+32,Argentina,Uva,203,Brasil,2015,tn,Toneladas,3550,USD,Dolares,5606.4
+32,Argentina,Uva,444,Rusia,2015,tn,Toneladas,4314,USD,Dolares,6242.25
+32,Argentina,Uva,438,Alemania,2015,tn,Toneladas,1565,USD,Dolares,2626.56
+32,Argentina,Uva,202,Bolivia,2015,tn,Toneladas,661,USD,Dolares,331.37
+32,Argentina,Uva,221,Paraguay,2015,tn,Toneladas,66,USD,Dolares,98.25
+32,Argentina,Uva,,Otros,2015,tn,Toneladas,3128,USD,Dolares,5191.35
+32,Argentina,Uva,203,Brasil,2016,tn,Toneladas,3978,USD,Dolares,5832.46
+32,Argentina,Uva,444,Rusia,2016,tn,Toneladas,2121,USD,Dolares,2996.02
+32,Argentina,Uva,438,Alemania,2016,tn,Toneladas,2066,USD,Dolares,2851.19
+32,Argentina,Uva,202,Bolivia,2016,tn,Toneladas,727,USD,Dolares,384.96
+32,Argentina,Uva,221,Paraguay,2016,tn,Toneladas,137,USD,Dolares,38.85
+32,Argentina,Uva,,Otros,2016,tn,Toneladas,2124,USD,Dolares,2953.6
+32,Argentina,Uva,203,Brasil,2017,tn,Toneladas,2148,USD,Dolares,3399.13
+32,Argentina,Uva,444,Rusia,2017,tn,Toneladas,1280,USD,Dolares,1966.38
+32,Argentina,Uva,438,Alemania,2017,tn,Toneladas,377,USD,Dolares,460.05
+32,Argentina,Uva,202,Bolivia,2017,tn,Toneladas,365,USD,Dolares,186.04
+32,Argentina,Uva,221,Paraguay,2017,tn,Toneladas,189,USD,Dolares,68.05
+32,Argentina,Uva,,Otros,2017,tn,Toneladas,165,USD,Dolares,260.89

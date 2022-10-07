@@ -1,0 +1,3 @@
+"0","df_frutas = read.csv('datos/exportaciones-de-frutas-del-anio-2013-al-2017.csv')"
+"0","df_frutas = na.omit(df_frutas)"
+"0","df_frutas"

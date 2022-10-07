@@ -1,0 +1,138 @@
+---
+title: "Clase12"
+author: "Jazmin"
+date: "9/26/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Actividad de IC asintotico para mu1 - mu2
+
+Objetivos de la actividad:
+
+1.  Calcular un IC asintótico para mu1-mu2
+
+2.  Recordar boxplots y ver boxplots paralelos
+
+3.  Interpretar en contexto. Decir qué decisión tomarían respecto a cambiar o no la página en base al IC observado.
+
+4.  Notar que la decisión puede cambiar si aumenta el tamaño de muestra.
+
+## 1.
+
+Bajar un conjunto con 30 datos de la muestra A y 40 de la muestra B usando su DNI e importalo a R en un dataframe llamado datos. El test AB está en <https://inferenciautdt.shinyapps.io/testAB/>.
+
+```{r}
+datos <- read.table('datos_DNI_33.txt')
+datos
+```
+
+## 2. 
+
+Calcule las medias muestrales del tiempo de permanencia de cada muestra. ¿Con qué versión se observa un tiempo de permanencia medio muestral mayor?
+
+Para calcular las medias de cada versión generamos un dataframe para cada una y calculamos por separado la media de la columna tiempo de permanencia.
+
+```{r}
+datosA <- datos[datos$version == "A", ]
+datosB <- datos[datos$version == "B", ]
+
+c(mean(datosA$tiempo), mean(datosB$tiempo))
+```
+
+Observamos que la muestra correspondiente a la nueva versión tiene un tiempo de permanecia medio mayor.
+
+## 3. 
+
+Hacer un summary de los tiempos de permanencia en cada muestra. Realizar boxplots paralelos de los tiempos de permanencia en cada muestra y decir que observa.
+
+```{r}
+summary(datosA$tiempo)
+summary(datosB$tiempo)
+
+boxplot(datos$tiempo ~ datos$version)
+```
+
+Observamos que la distribución de los datos de la muestra B tiene valores mayores que los de la muestra A. La mediana muestral de la muestra B es mayor que la mediana de la muestra A. Al igual que ocurre con la media.
+
+## 4
+
+En base a los datos calcule un IC asintótico para mu1-mu2 de nivel 0.95 donde:
+
+$\mu_1$= tiempo de permanencia medio (poblacional) en la página con la versión actual
+
+$\mu_2$ = tiempo de permanencia medio (poblacional) en la página con la nueva versión.
+
+```{r}
+# Datos
+tiemposA <- datosA$tiempo
+tiemposB <- datosB$tiempo
+
+# Alfa, nivel, percentil de la normal y n
+nivel <- 0.99
+alfa <- 1-nivel
+q <- qnorm(1-alfa/2)
+n1 <- length(tiemposA)
+n2 <- length(tiemposB)
+
+# Estimaciones
+media1 <- mean(tiemposA)
+media2 <- mean(tiemposB)
+
+# SE
+se <- sqrt(var(tiemposA) / n1 + var(tiemposB) / n2)
+
+# Extremos del intervalo
+a <- (media1 - media2) - q * se
+b <- (media1 - media2) + q * se
+c(a, b)
+```
+
+En base a mi IC, cada uno tiene uno distinto, puedo decir que la diferencia entre los tiempos de permanencia medios (POBLACIONALES) con la version vieja y la nueva está entre -33 y -0.3 con un 99% de confianza.
+
+La decisión que puedo tomar en base a esto es que viendo los extremos del IC todos los valores compatibles de mu1-mu2 son negativos así que si tomaría la decisión de cambiar. En cambio si me hubiera dado como a Lucía -44.09 y 3.30 no tomaría esa decisión porque hay valores compatibles para el parametro en ese intervalo que no son los que quiero. Es decir que solo decidiria cambiar si mi IC está todo a la izquierda del cero porque en ese caso todos los valores compatibles con mu1 - mu2 son negativos.
+
+## 4. 
+
+Implemente una función llamada "ic_dif_medias_asint" que tenga por argumentos dos conjuntos de datos y un nivel y devuelva el IC asintotico para la diferencia de medias de dicho nivel. Utilice la función para calcular el IC pedido en el ítem 4 para chequear que está bien programada.
+
+```{r}
+ic_dif_medias_asint <- function(datos1, datos2, nivel){
+  alfa <- 1 - nivel
+  q <- qnorm(1  - alfa / 2)
+  n1 <- length(datos1)
+  n2 <- length(datos2)
+  media1 <- mean(datos1)
+  media2 <- mean(datos2)
+  se <- sqrt(var(datos1) / n1 + var(datos2) / n2)
+  delta_est <- media1 - media2
+  a <- delta_est - q * se
+  b <- delta_est + q * se
+  c(a, b)
+}
+
+ic_dif_medias_asint(datos1 = tiemposA, datos2 = tiemposB, nivel = 0.99)
+```
+
+## 6.
+
+Bajar otro conjunto de datos pero ahora con 1000 datos de la muestra A y 6000 de la muestra B (siempre usando su DNI) e importarlo R en un data frame llamado datos2.
+
+Cacular nuevamente un IC de nivel asintotico 0.95 para mu1 - mu2 en base a estos datos utilizando la funci?n implemntada en el ítem anterior. Qué decisión tomaría en base a este intervalo? Cambia respecto de la que tomaria en base al IC calculado en el ítem 4?
+
+```{r}
+datos2 <- read.table("datos_DNI_27311218_4000_6000.txt")
+
+datosA <- datos2$tiempo[datos2$version == "A"]
+datosB <- datos2$tiempo[datos2$version == "B"]
+
+par(mfrow = c(1, 2))
+boxplot(datos$tiempo ~ datos$version, ylim = c(0, 350))
+boxplot(datos2$tiempo ~ datos2$version, ylim = c(0, 350))
+
+ic_dif_medias_asint(datos1 = datosA, datos2 = datosB, nivel = 0.99)
+
+```

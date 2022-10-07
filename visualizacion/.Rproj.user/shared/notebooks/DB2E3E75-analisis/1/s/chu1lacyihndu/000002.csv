@@ -1,0 +1,29 @@
+"0","# Importamos las librerías a utilizar"
+"0","#install.packages(""remotes"")"
+"0","#remotes::install_github(""davidsjoberg/ggsankey"")"
+"0","library(ggsankey)"
+"0","library(ggplot2)"
+"2","Use suppressPackageStartupMessages() to eliminate package startup messages
+"
+"0","library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(scales)  "
+"0","library(cowplot)"
+"0","library(showtext)"
+"2","Loading required package: sysfonts
+"
+"2","Loading required package: showtextdb
+"

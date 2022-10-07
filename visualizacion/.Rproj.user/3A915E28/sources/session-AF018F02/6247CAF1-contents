@@ -1,0 +1,20 @@
+---
+title: "Análisis de exportaciones de frutas de Argentina"
+author: "Jazmín Vidal"
+date: "10-09-2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, include=TRUE}
+
+# Me fijo si estos paquetes están instalados y si no, los instalo
+packages <- c("cowplot", "readr", "ggplot2", "dplyr", "lavaan", "Hmisc",
+              "tidyverse", "lubridate", "ggbeeswarm", "ggridges", "patchwork")
+if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
+  install.packages(setdiff(packages, rownames(installed.packages())))
+}
+```

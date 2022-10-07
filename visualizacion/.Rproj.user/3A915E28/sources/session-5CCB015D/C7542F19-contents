@@ -1,0 +1,162 @@
+---
+title: "Analisis de exportaciones de frutas de Argentina"
+author: "Jazmín Vidal"
+date: "2022-09-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Importamos las librerías a utilizar
+#install.packages("remotes")
+#remotes::install_github("davidsjoberg/ggsankey")
+library(ggsankey)
+library(ggplot2)
+library(dplyr)
+library(scales)    
+options(dplyr.summarise.inform = FALSE)
+```
+
+## Introducción
+
+Este es un ejercicio de visualización de datos con un dataset de exportación de frutas de Argentinas entre los años 2013 y 2017. El dataset se encuentra en la sección de Agroganadería, pesca y forestación de la [página de datos públicos de Argentina](https://datos.gob.ar) bajo el nombre de 'Frutas - Anuario de exportaciones'. Fue descargado el día 3 de septiembre de 2022 bajo el nombre 'exportaciones-de-frutas-del-anio-2013-al-2017.csv' y almacenado en la carpeta datos de este proyecto.
+
+El dataset contiene 235 registros (omitiendo valores faltantes) con información sobre el país de origen y su identificador único, el producto exportado , el país de destino y su identificador único, el año de exportación, el total exportado en toneladas y el total exportado en dólares.
+
+A continuación se cargan los datos y se imprime una muestra de las primeras 10 filas.
+
+```{r}
+df_frutas = read.csv('datos/exportaciones-de-frutas-del-anio-2013-al-2017.csv')
+df_frutas = na.omit(df_frutas)
+df_frutas
+```
+
+## Objetivos
+
+En la primera parte se realiza un análisis exploratorio de los datos con el objetivo de entender el conjunto de datos de forma global. En función de los resultados del análisis exploratorio de los datos se realizan modificaciones al conjunto de datos y por último se analiza, para las cuatro frutas que más se exportan los países de destino y las cantidades de exportación en toneladas y dolares utilizando diagramas de Sankey. Estos diagramas permiten visualizar flujos. Distintas entidades se representan como rectangulos o texto y los vínculos entre ellas como arcos cuyo ancho varía de forma proporcional a la importancia de la relación. Más información se puede encontrar en <https://www.data-to-viz.com/graph/sankey.html>.
+
+## Analisis
+
+Un análisis exploratorio de los datos permite ver que se exportan frutas a Estados Unidos, el Reino Unido, los Países Bajos, Alemania, Canadá, Brasil, Paraguay, Uruguay, Bolivia y Rusia. Las frutas exportadas a estos países son arandano, ciruela, durazno, limón, mandarina, manzana, naranja, pera, pomelo y uva.
+
+```{r}
+df_frutas %>% distinct(pais_destino)
+df_frutas %>% distinct(producto)
+summary(df_frutas$totales_tn)
+summary(df_frutas$totales_usd)
+```
+
+Por su parte, el rango de frutas exportadas en toneladas va entre 0 y 148206. Esto motiva a filtrar los dato. Con un promedio de 14126 toneladas exportadas y una mediana de 3978. Se toma la decisión de filtrar las exportaciones a aquellas mayores a 3000.
+
+```{r}
+df_frutas_fil = df_frutas %>%  filter(totales_tn>3000)
+df_frutas_fil$totales_usd = round(df_frutas_fil$totales_usd,0)
+df_frutas_fil
+```
+
+Para el conjunto de datos filtrado, se ven los gráficos de evolución de exportación de frutas en toneladas y en dólares desglosados por tipo de fruta. Se puede ver que las frutas que más divisas netas ingresan son, en orden decreciente, la pera, el limón, el arandano y la manzana.
+
+```{r}
+data1 = df_frutas_fil %>% group_by(año, producto) %>% summarise(tot_dolar = sum(totales_usd)) 
+data1 %>% ggplot(aes(año, tot_dolar, group = producto, col = producto)) +
+  geom_line() +
+  geom_point(shape=21, size=2) +
+  scale_y_continuous(labels = comma) +
+  theme_minimal() +
+  ggtitle("Evolución de exportación de fruta en dólares por año")
+```
+
+Y las frutas que más se exportan en toneladas son, en orden decreciente, la pera, el limón, la naranja y la manzana.
+
+```{r}
+data2 = df_frutas_fil %>% group_by(año, producto) %>% summarise(tot_tons = sum(totales_tn)) 
+data2 %>% ggplot(aes(año, tot_tons, group = producto, col = producto)) + 
+  geom_line() +
+  geom_point(shape=21, size=2) +
+  scale_y_continuous(labels = comma_format(big.mark = ".",
+                                           decimal.mark = ",")) +
+
+  theme_minimal() +
+  ggtitle("Evolución de exportación de fruta en toneladas por año")
+  
+```
+
+Se observa que el arándano ocupa un lugar alto en cuanto a ingreso de divisas, pero menor, debido a su tamaño en relación a las toneladas de exportación. Esto lleva a crear una nueva variable que mida la relación a lo largo de los años de exportación de frutas en dolares por tonelada. El ranking de exportaciones que obtenemos ahora es, en orden decreciente, arandanos, limon, pera y manzana.
+
+```{r}
+data3 = df_frutas_fil %>% mutate(dol_per_ton = totales_usd/totales_tn)
+data3 %>% group_by(año, producto) %>% summarise(tot_val = sum(dol_per_ton)) %>% ggplot(aes(año, tot_val, group = producto, col = producto)) + 
+  geom_line() +
+  geom_point(shape=21, size=2) +
+  scale_y_continuous(labels = comma_format(big.mark = ".",
+                                           decimal.mark = ",")) +
+  theme_minimal() +
+  ggtitle("Evolución de exportación de fruta en dolar por tonelada por año")
+```
+
+Ahora interesa ver para esas cuatro frutas los principales paises importadores.
+
+## Diagramas de Sankey
+
+Se realiza el diagrama de Sankey con el poaquete ggsankey de ggplot2. El objetivo es dar una representación visual del flujo de cada fruta hacia su país importador, primero de forma global para todos los años, luego para cada año del conjunto de datos por separado. Para eso es necesario filtrar los datos a graficar
+
+```{r}
+# Filtramos los datos para tener información de peras, arandanos, limones y manzanas
+df_top_frutas = df_frutas_fil %>% filter(grepl('Limon|Arandano|Pera|Manzana', producto))
+# Limpiamos las columnas que no queremos utilizar
+df_top_frutas_clean = df_top_frutas %>% select(producto,pais_destino)
+df_top_frutas_clean
+```
+
+y transformarlos de acuerdo a lo que espera el paquete ggsankey para crear el diagrama
+
+```{r}
+df_frutas_sankey = df_top_frutas_clean %>% make_long(producto, pais_destino)
+df_frutas_sankey
+```
+
+```{r}
+pl <- ggplot(df_frutas_sankey, aes(x = x
+                     , next_x = next_x
+                     , node = node
+                     , next_node = next_node
+                     , fill = factor(node)
+                     , label = node)
+             )
+pl <- pl +geom_sankey(flow.alpha = 0.5
+                      , node.color = "black"
+                      ,show.legend = FALSE)
+pl <- pl +geom_sankey_label(size = 3, color = "black", fill= "white", hjust = -0.5)
+pl <- pl +  theme_bw()
+
+pl <- pl + theme(legend.position = "none")
+
+pl <- pl +  theme(axis.title = element_blank()
+                  , axis.text.y = element_blank()
+                  , axis.ticks = element_blank()  
+                  , panel.grid = element_blank())
+pl <- pl + scale_fill_viridis_d(option = "inferno")
+pl <- pl + labs(title = "Sankey diagram using ggplot")
+pl <- pl + labs(fill = 'Nodes')
+pl
+
+```
+
+Esto hecho para cada año
+
+```{r}
+df_top_frutas %>% group_by(año) %>% filter(grepl('Limon|Arandano|Pera|Manzana', producto)) %>% select(producto,pais_destino) %>% make_long(producto, pais_destino) %>% ggplot(aes(x = x
+                     , next_x = next_x
+                     , node = node
+                     , next_node = next_node
+                     , fill = factor(node)
+                     , label = node)
+             ) +
+  geom_sankey(flow.alpha = 0.5
+                      , node.color = "black"
+                      ,show.legend = FALSE)
+
+```
