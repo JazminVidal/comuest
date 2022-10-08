@@ -5,10 +5,10 @@ account: inferenciautdt
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7244563
-bundleId: 6380185
+bundleId: 6380598
 url: https://inferenciautdt.shinyapps.io/power/
-when: 1665160643.14342
-lastSyncTime: 1665160643.14343
+when: 1665168275.52509
+lastSyncTime: 1665168275.52513
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: power_app.html|power_app.Rmd
+ignoredFiles: power_app.html
